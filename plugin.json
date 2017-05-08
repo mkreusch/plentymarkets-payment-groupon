@@ -1,0 +1,26 @@
+{
+    "version"           : "1.0.0",
+    "name"              : "Groupon Payment",
+    "marketplaceName"   : {"de":"Groupon Payment","en":"Groupon Payment"},
+    "license"           : "MIT",
+    "pluginIcon"        : "icon_plugin_xs.png",
+    "price"             : 0.00,
+    "description"       : "Groupon payment plugin for plentymarkets online stores",
+    "shortDescription"  : {"de": "Groupon Payment","en": "Groupon Payment"},
+    "categories"        : ["3519"],
+    "author"            : "Marcus Kreusch",
+    "authorIcon"        : "icon_author_xs.png",
+    "email"             : "info@kreusch-creative.de",
+    "phone"             : "",
+    "keywords"          : [],
+    "type"              : "payment",
+    "namespace"         : "GrouponPayment",
+    "serviceProvider"   : "GrouponPayment\\Providers\\GrouponPaymentServiceProvider",
+    "javaScriptFiles"   : [],
+    "containers"        : [],
+    "dataProviders"     : [],
+    "dependencies"      : [],
+    "runOnBuild"        : [
+        "Invoice\\Migrations\\CreateSettings_1_0_0"
+    ]
+}
