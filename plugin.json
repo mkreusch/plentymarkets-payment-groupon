@@ -1,6 +1,6 @@
 {
     "version"           : "1.0.0",
-    "name"              : "Groupon Payment",
+    "name"              : "GrouponPayment",
     "marketplaceName"   : {"de":"Groupon Payment","en":"Groupon Payment"},
     "license"           : "MIT",
     "pluginIcon"        : "icon_plugin_xs.png",
