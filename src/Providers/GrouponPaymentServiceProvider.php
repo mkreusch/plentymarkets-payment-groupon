@@ -11,7 +11,6 @@ use Plenty\Modules\Basket\Events\Basket\AfterBasketChanged;
 use Plenty\Modules\Basket\Events\BasketItem\AfterBasketItemAdd;
 use Plenty\Modules\Payment\Method\Contracts\PaymentMethodContainer;
 use GrouponPayment\Helper\GrouponPaymentHelper;
-use GrouponPayment\Methods\GrouponPaymentPaymentMethod;
  
 /**
  * Class GrouponPaymentServiceProvider

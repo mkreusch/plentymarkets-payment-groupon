@@ -19,8 +19,5 @@
     "javaScriptFiles"   : [],
     "containers"        : [],
     "dataProviders"     : [],
-    "dependencies"      : [],
-    "runOnBuild"        : [
-        "Invoice\\Migrations\\CreateSettings_1_0_0"
-    ]
+    "dependencies"      : []
 }
